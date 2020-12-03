@@ -25,6 +25,8 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ["@nuxtjs/axios", "@nuxtjs/device"],
 
+  serverMiddleware: [{ path: "/api", handler: "~/api/index.js" }],
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     babel: {
