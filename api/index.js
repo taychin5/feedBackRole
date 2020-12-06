@@ -3,7 +3,7 @@ const app = require("express")();
 const nodemailer = require("nodemailer");
 
 app.use(bodyParser.json());
-app.all("/getJSON", (req, res) => {
+app.all("/email", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
@@ -11,7 +11,6 @@ app.all("/getJSON", (req, res) => {
       pass: "taychin5" // naturally, replace both with your real credentials or an application-specific password
     }
   });
-  console.log("node");
 
   const mailOptions = {
     from: "vindication@enron.com",

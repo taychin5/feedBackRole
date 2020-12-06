@@ -11,14 +11,19 @@
             session more effectrive and engaging.
           </div>
           <div class="flex">
-            <div class="px-4 py-2 rounded-full shadow mr-2">Pick the cards</div>
-            <div class="px-4 py-2 rounded-full shadow bg-black text-white">
+            <n-link to="/pick" class="px-4 py-2 rounded-full shadow mr-2"
+              >Pick the cards</n-link
+            >
+            <n-link
+              to="/quiz"
+              class="px-4 py-2 rounded-full shadow bg-black text-white"
+            >
               Let’s us pick
-            </div>
+            </n-link>
           </div>
         </div>
         <div>
-          <img src="testPic.png" alt="" />
+          <img src="/testPic.png" alt="" />
         </div>
       </div>
     </div>
@@ -32,10 +37,15 @@
       <div class="my-20">
         <div class="text-center">I want to add my own character card</div>
         <div class="flex justify-center">
-          <div class="px-4 py-2 rounded-full shadow mr-2">Pick the cards</div>
-          <div class="px-4 py-2 rounded-full shadow bg-black text-white">
+          <n-link to="/pick" class="px-4 py-2 rounded-full shadow mr-2"
+            >Pick the cards
+          </n-link>
+          <n-link
+            to="/quiz"
+            class="px-4 py-2 rounded-full shadow bg-black text-white"
+          >
             Let’s us pick
-          </div>
+          </n-link>
         </div>
       </div>
     </div>
