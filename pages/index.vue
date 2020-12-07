@@ -10,7 +10,7 @@
             feedback session. The bundle is proofed that it will made your
             session more effectrive and engaging.
           </div>
-          <div class="flex">
+          <div class="flex mt-8">
             <n-link to="/pick" class="px-4 py-2 rounded-full shadow mr-2"
               >Pick the cards</n-link
             >
@@ -30,8 +30,9 @@
     <div class="container my-20">
       <h1 class="text-center text-2xl my-20 bold">Explore the bundle</h1>
       <div class="grid grid-cols-4">
-        <div class="col-span-1" v-for="(card, i) in 6" :key="`card-${i}`">
-          <img src="card.png" alt="" class="mx-auto" />
+        <div v-for="(hello, i) in _roles" :key="`card-${i}`">
+          {{ i }}
+          {{ hello }}
         </div>
       </div>
       <div class="my-20">
@@ -53,7 +54,14 @@
 </template>
 
 <script>
-export default {};
+import roles from "@/assets/roles.json";
+export default {
+  computed: {
+    _roles() {
+      return roles;
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped></style>
