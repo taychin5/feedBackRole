@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div> 
+    <TopHeader></TopHeader>
+    <!-- page render here -->
     <Nuxt />
   </div>
 </template>
