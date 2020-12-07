@@ -25,6 +25,7 @@
         </QuizHeading>
       </div>
       <div v-if="step === 1">
+        <!-- อันนี้render เข้า slot ในquizheader -->
         <QuizHeading
           :error="errorMsg"
           @next="selectStepTwo"
@@ -69,23 +70,23 @@ export default {
     stepTwoSelected: "",
     calculator: {
       digital: {
-        idea: "inspector,creative,planner,curious",
-        develop: "critiquer,inspector,tech-expert,contributor,planner",
-        check: "tech-expert,business-brain,aesthetic-please,curious,critiquer"
+        idea: "inspector,creative,visioner,curious",
+        develop: "critiquer,inspector,tech-expert,contributor,visioner",
+        check: "tech-expert,business-brain,aesthetic-pleaser,curious,critiquer"
       },
       product: {
         idea: "inspector,creative,builder,curious",
-        develop: "aesthetic-please,builder,maker,contributor,critiquer",
-        check: "aesthetic-please,maker,environmentalist,business-brain,curious"
+        develop: "aesthetic-pleaser,builder,maker,contributor,critiquer",
+        check: "aesthetic-pleaser,maker,environmentalist,business-brain,curious"
       },
       packaing: {
-        idea: "creative,planer,inspector,builder",
-        develop: "environmentalist,inspector,planer,builder,aesthetic-please",
+        idea: "creative,visioner,inspector,builder",
+        develop: "environmentalist,inspector,visioner,builder,aesthetic-pleaser",
         check:
-          "environmentalist,maker,aesthetic-please,business-brain,inspector"
+          "environmentalist,maker,aesthetic-pleaser,business-brain,inspector"
       },
       service: {
-        idea: "critiquer,creative,planner,contributor",
+        idea: "critiquer,creative,visioner,contributor",
         develop: "critiquer,creative,business,curious,inspector",
         check: "business-brain,contributor,critiquer,curious,maker"
       }
@@ -105,11 +106,11 @@ export default {
   },
   methods: {
     selectStepOne() {
-      if (!this.stepOneSelected) return (this.errorMsg = "error1");
+      if (!this.stepOneSelected) return (this.errorMsg = "Please select before move on");
       this.step++;
     },
     selectStepTwo() {
-      if (!this.stepTwoSelected) return (this.errorMsg = "error2");
+      if (!this.stepTwoSelected) return (this.errorMsg = "Let us know what you need");
       this.step++;
     }
   }
