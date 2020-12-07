@@ -3,29 +3,33 @@ const app = require("express")();
 const nodemailer = require("nodemailer");
 
 app.use(bodyParser.json());
-app.all("/email", (req, res) => {
+app.all("/email", async (req, res) => {
+  let mailContainer = req.body;
+  if (!mailContainer.length) return;
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
       user: "taychin@5lab.co",
-      pass: "taychin5" // naturally, replace both with your real credentials or an application-specific password
+      pass: "taychin5"
     }
   });
 
-  const mailOptions = {
-    from: "vindication@enron.com",
-    to: "tay.161.tod@gmail.com",
-    subject: "Invoices due",
-    text: "Dudes, we really need your money."
-  };
-
-  transporter.sendMail(mailOptions, function(error, info) {
-    if (error) {
-      console.log(error);
-    } else {
-      console.log("Email sent: " + info.response);
-    }
+  mailContainer.forEach(async element => {
+    let mailOptions = {
+      from: "vindication@enron.com",
+      to: element.paticipants,
+      subject: element.slug,
+      text: "test"
+    };
+    await transporter.sendMail(mailOptions, (error, info) => {
+      if (error) {
+        console.log(error);
+      } else {
+        console.log("Email sent: " + info.response);
+      }
+    });
   });
+
   res.json({ data: "data" });
 });
 

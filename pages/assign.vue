@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    {{ paticipants }}
-    <h1 class="text-center mb-10 text-2xl font-bold">Assign role to participants</h1>
+    <h1 class="text-center">Assign role to participants</h1>
     <div class="grid grid-cols-3 gap-8">
       <div v-for="(item, i) in exportRoles" :key="`card-${i}`">
         <!-- TODO : Layout!!! -->
@@ -35,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-10 mb-20">
+    <div class="mt-10 mb-2 flex justify-center">
       <!-- submit -->
       <button @click="submit()" class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">submit</button>
     </div>
@@ -67,9 +66,7 @@ export default {
       this.paticipants.find(x => x.slug === item.slug).paticipants.push("");
     },
     async submit() {
-      let allEmail = this.paticipants.map(x => x.paticipants);
-      alert(allEmail);
-      // await this.$axios.$post(`api/email`);
+      await this.$axios.$post(`api/email`, this.paticipants);
       this.$router.push("/complete");
     }
   }
