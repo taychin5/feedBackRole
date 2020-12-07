@@ -10,7 +10,7 @@
             session more effectrive and engaging.
           </div>
           <div class="flex mt-8">
-            <n-link to="/pick" class="px-6 py-2 rounded-full shadow mr-4 text-black hover:text-purple-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+            <n-link to="/pick" class="px-6 py-2 rounded-full shadow mr-4 bg-white text-black hover:text-purple-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
               >Pick the cards</n-link
             >
             <n-link
@@ -39,7 +39,7 @@
       </div>
       <div class="my-20">
         <div class="flex justify-center">
-          <n-link to="/pick" class="px-6 py-2 rounded-full shadow mr-4 text-black hover:text-purple-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+          <n-link to="/pick" class="px-6 py-2 rounded-full shadow mr-4 bg-white text-black hover:text-purple-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
             >Pick the cards
           </n-link>
           <n-link

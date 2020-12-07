@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     {{ paticipants }}
-    <h1 class="text-center">Assign role to participants</h1>
+    <h1 class="text-center mb-10 text-2xl font-bold">Assign role to participants</h1>
     <div class="grid grid-cols-3 gap-8">
       <div v-for="(item, i) in exportRoles" :key="`card-${i}`">
         <!-- TODO : Layout!!! -->
         <div>
-          <img :src="item.cardImage" alt="" />
+          <img :src="item.cardImage" alt="" class="w-3/5 mx-auto" />
           <div
             v-if="
               paticipants &&
@@ -31,13 +31,13 @@
               </b-field>
             </div>
           </div>
-          <button @click="addItem(item)">add</button>
+          <button @click="addItem(item)" class="mt-4 ml-16 px-16 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white">add participant</button>
         </div>
       </div>
     </div>
-    <div>
+    <div class="mt-10 mb-20">
       <!-- submit -->
-      <button @click="submit()">submit</button>
+      <button @click="submit()" class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">submit</button>
     </div>
   </div>
 </template>
@@ -69,7 +69,7 @@ export default {
     async submit() {
       let allEmail = this.paticipants.map(x => x.paticipants);
       alert(allEmail);
-      await this.$axios.$post(`api/email`);
+      // await this.$axios.$post(`api/email`);
       this.$router.push("/complete");
     }
   }
