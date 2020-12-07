@@ -3,19 +3,19 @@
     <div class="container my-20">
       <div class="grid grid-cols-5 gap-16 items-center">
         <div class=" col-span-5 md:col-span-3">
-          <h1 class="text-5xl font-bold leading-tight">A character cards for your feedback session</h1>
-          <div>
+          <h1 class="text-5xl font-bold leading-tight mb-4">A character cards for your feedback session</h1>
+          <div class="mt-2">
             We’ll provide you with a bundle of character card to be used in your
             feedback session. <br>The bundle is proofed that it will made your
             session more effectrive and engaging.
           </div>
           <div class="flex mt-8">
-            <n-link to="/pick" class="px-4 py-2 rounded-full shadow mr-2"
+            <n-link to="/pick" class="px-6 py-2 rounded-full shadow mr-4 text-black hover:text-purple-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
               >Pick the cards</n-link
             >
             <n-link
               to="/quiz"
-              class="px-4 py-2 rounded-full shadow bg-black text-white"
+              class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
             >
               Let’s us pick
             </n-link>
@@ -37,14 +37,13 @@
         </div>
       </div>
       <div class="my-20">
-        <div class="text-center">I want to add my own character card</div>
         <div class="flex justify-center">
-          <n-link to="/pick" class="px-4 py-2 rounded-full shadow mr-2"
+          <n-link to="/pick" class="px-6 py-2 rounded-full shadow mr-4 text-black hover:text-purple-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
             >Pick the cards
           </n-link>
           <n-link
             to="/quiz"
-            class="px-4 py-2 rounded-full shadow bg-black text-white"
+            class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
           >
             Let’s us pick
           </n-link>
