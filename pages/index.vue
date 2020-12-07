@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class=" col-span-5 md:col-span-2 ">
-          <img class=" mx-auto" src="/testPic.png" alt="" />
+          <img class=" mx-auto" src="/landing.png" alt="" />
         </div>
         
     
