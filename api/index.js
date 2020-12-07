@@ -18,7 +18,7 @@ app.all("/email", async (req, res) => {
     let mailOptions = {
       from: "vindication@enron.com",
       to: element.paticipants,
-      subject: element.slug,
+      subject: element.title,
       text: "test"
     };
     await transporter.sendMail(mailOptions, (error, info) => {

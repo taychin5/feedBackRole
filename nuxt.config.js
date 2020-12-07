@@ -9,11 +9,19 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&display=swap" }
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&display=swap"
+      }
     ]
   },
 
-  // 
+  axios: {
+    debug: false,
+    baseURL: "/",
+    progress: true
+  },
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: ["@/assets/css/main.scss"],
 
