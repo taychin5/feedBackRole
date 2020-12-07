@@ -40,5 +40,47 @@
     "description": "You're a person who always thinks of how the product will enter the market. Consider Not only the sale strategy but also the possible partnership. Does this product have good entice? or How can the product beat their competitor? This could be a good question to ask.",
     "mainImage": "/bb-set.png",
     "cardImage": "/card/bb-card.png"
+  },
+  {
+    "title": "The visioner",
+    "slug": "visioner",
+    "description": "You're a person who loves to focus on the process and method used. You'll suggest the designer what should be done in the next step also, mention a suitable tool. Because the process behind is a significant factor that leads to the outcome, you need to question the method used.",
+    "mainImage": "/visioner-set.png",
+    "cardImage": "/card/visioner-card.png"
+  },
+  {
+    "title": "The curious",
+    "slug": "curious",
+    "description": "You always question everything you saw or perceived. Why is your favourite word. It would be best if you left the designer with something they could think about or something they should be able to answer in the future. Challenge the designer by asking them a question is your task!",
+    "mainImage": "/curious-set.png",
+    "cardImage": "/card/curious-card.png"
+  },
+  {
+    "title": "The tech expert",
+    "slug": "tech-expert",
+    "description": "You're a person who obsesses with technology. You will be concerning how technology could play a role in the design outcome. You could ask the designer a question about the technology they choose to use in their design or suggest them with alternative tools.",
+    "mainImage": "/tech-set.png",
+    "cardImage": "/card/tech-card.png"
+  },
+  {
+    "title": "The maker",
+    "slug": "maker",
+    "description": "You are a maker who focuses on the production stage of the design. You'll be concerning about the manufacturing or crafting process. Question yourself and challenge the designer of how they can make the design happen!",
+    "mainImage": "/maker-set.png",
+    "cardImage": "/card/maker-card.png"
+  },
+  {
+    "title": "The builder",
+    "slug": "builder",
+    "description": "You are a person who concentrates on how the design looks. You will be giving a thought about the visual part of the design. Things you will be considering are colour, font, illustration, layout or photos. You can also suggest the designer an art direction or the mood and tone that you found suitable for their project.",
+    "mainImage": "/builder-set.png",
+    "cardImage": "/card/builder-card.png"
+  },
+  {
+    "title": "The aesthetic pleaser",
+    "slug": "aesthetic-pleaser",
+    "description": "You're a person who view everything in 3D perspective. You always amaze by the complicate but seamless structure. Taking builder role, you'll focus on the shape and structure of the design. You will not only help the designer improve their 3D form, but also give some suggestion about the mock-up model.",
+    "mainImage": "/ap-set.png",
+    "cardImage": "/card/ap-card.png"
   }
 ]
