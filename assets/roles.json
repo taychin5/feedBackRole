@@ -1,31 +1,37 @@
 [
   {
     "title": "The critiquer",
+    "slug": "critiquer",
     "description": "You're a person who often spots the flaw in every design. You are looking at a room for improvement. Your feedback might seem cruel, but you have a good intention. Be honest. Tell the designer what's their design is lacking.",
     "mainImage": "/card.png"
   },
   {
     "title": "The inspector",
+    "slug": "inspector",
     "description": "You're a person who helps the designer re-check their project. You will be focusing on the user's need, requirement and the goal that designer want to achieve. Then, you will be thinking about does the outcome answered what is mentioned. If yes, excellent job to the designer, if not, what is your concern?",
     "mainImage": "/card.png"
   },
   {
     "title": "The environmentalist",
+    "slug": "environmentalist",
     "description": "You're a person who concerns about the environmental impact. You'll be considering how the design could provide a negative impact on our world. How can designer develop their design to be less harmful to the earth? Keep the word sustainable in mind!",
     "mainImage": "/card.png"
   },
   {
     "title": "The creative",
+    "slug": "creative",
     "description": "You're a realistic dreamer who always comes up with a new idea. You'll help them elevate the current concept or help them come up with a new inspiring one. Try to think outside the box! Your suggestion could help the designer achieve a wow solution.",
     "mainImage": "/card.png"
   },
   {
     "title": "The contributor",
+    "slug": "contributor",
     "description": "You're a person who only looks for a good thing in the design. You'll be telling the designer about what have they done well and what they should keep. You will be suggesting how the designer can contribute to their design and make it better.",
     "mainImage": "/card.png"
   },
   {
     "title": "The business brain",
+    "slug": "business-brain",
     "description": "You're a person who always thinks of how the product will enter the market. Consider Not only the sale strategy but also the possible partnership. Does this product have good entice? or How can the product beat their competitor? This could be a good question to ask.",
     "mainImage": "/card.png"
   }
