@@ -1,8 +1,7 @@
 <template>
   <div>
     <div class="container my-20">
-      test
-      <h1 class="text-2xl">Feed Back Role</h1>
+      <h1 class="text-2xl">Hello world</h1>
       <div class="grid grid-cols-2 gap-4 items-center">
         <div>
           <h1 class="text-5xl">A character cards for your feedback session</h1>
