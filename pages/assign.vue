@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    {{ paticipants }}
     <h1 class="text-center">Assign role to participants</h1>
     <div class="grid grid-cols-3 gap-8">
       <div v-for="(item, i) in exportRoles" :key="`card-${i}`">
@@ -67,9 +66,7 @@ export default {
       this.paticipants.find(x => x.slug === item.slug).paticipants.push("");
     },
     async submit() {
-      let allEmail = this.paticipants.map(x => x.paticipants);
-      alert(allEmail);
-      await this.$axios.$post(`api/email`);
+      await this.$axios.$post(`api/email`, this.paticipants);
       this.$router.push("/complete");
     }
   }
