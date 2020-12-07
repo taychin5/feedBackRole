@@ -1,17 +1,15 @@
 <template>
   <div class="container">
+   <!-- TODO: layout -->
     <h1 class="text-3xl">Select the cards for yout feedback session</h1>
-    <div class="grid grid-cols-6">
+    <div class="grid grid-cols-6 gap-4">
       <div v-for="(card, i) in _roles" :key="`card-${i}`">
-        {{ card }}
-        <!-- <FlipCard
-          :mainImage="card.mainImage"
-          :description="card.description"
-        ></FlipCard> -->
+        
+       <img @click="selectCard(card.slug)" :src="card.cardImage" alt="" class="shadow" :class="{'-active' : selectedCard.includes(card.slug) }">
       </div>
+       <!-- TODO: IF NOT SELECTED DISABLE -->
       <div>
-        <n-link to="/assign">next</n-link>
-        <a href="/">xxxxx</a>
+        <n-link :to="`/assign?roles=${_selectedRoleString}`">next</n-link>
       </div>
     </div>
   </div>
@@ -20,12 +18,33 @@
 <script>
 import roles from "@/assets/roles.json";
 export default {
+  data: () => ({
+    selectedCard: []
+  }),
   computed: {
     _roles() {
       return roles;
+    },
+    _selectedRoleString() {
+      if(this.selectedCard.length) return this.selectedCard.join(",")
+      return []
+    }
+  },
+  methods: {
+    selectCard(slug){
+      if(this.selectedCard.includes(slug)) {
+        this.selectedCard = this.selectedCard.filter(x => x !== slug)
+      } else {
+        this.selectedCard.push(slug)
+      }
+      
     }
   }
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.-active {
+  border: 2px solid plum
+}
+</style>

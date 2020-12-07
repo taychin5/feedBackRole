@@ -31,7 +31,7 @@
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
         <div v-for="(card, i) in _roles" :key="`card-${i}`">
           <n-link :to="`role/${card.slug}`">
-            <FlipCard></FlipCard>
+            <FlipCard :mainImage="card.cardImage" :description="card.description"></FlipCard>
           </n-link>
 
           <!-- <img src="/card.png" alt="" /> -->

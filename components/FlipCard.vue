@@ -1,14 +1,11 @@
 <template>
   <div class="flipcard ">
-    <div class="flipcard_front">
-      <img src="/card.png" class="w-full h-full"></img>
+    <div class="flipcard_front shadow">
+      <img :src="mainImage" class="w-full h-full"></img>
     </div>
-    
     <div class="flipcard_back shadow">
       <div class="flipcard_description">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
-        accusantium, reiciendis repellat beatae nam ex ratione, adipisci eaque
-        veniam ut et saepe, nulla odio porro unde magni aut expedita molestiae.
+        {{description}}
       </div>
     </div>
   </div>
@@ -21,7 +18,7 @@ export default {
       type: String,
       default: ""
     },
-    desciption: {
+    description: {
       type: String,
       default: ""
     }
@@ -56,7 +53,7 @@ export default {
 
 .flipcard_back {
   backface-visibility: hidden;
-  height: 100%;
+  height: 400px;
   width: 100%;
   position: absolute;
   top: 50%;

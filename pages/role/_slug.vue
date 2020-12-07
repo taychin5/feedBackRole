@@ -1,18 +1,14 @@
 <template>
   <div class="container">
+    
     <div><n-link to="/">back to the bundle</n-link></div>
     <div class="grid grid-cols-2">
       <div>
-        <img src="/testPic.png" alt="" />
+        <img v-bind:src="role.mainImage" alt="" />
       </div>
       <div>
-        <h1 class="text-5xl">The Critiquer</h1>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-          adipisci nulla accusamus et, quidem sequi quaerat optio atque
-          voluptatibus rerum similique natus delectus praesentium nemo quas
-          laborum. Excepturi, non eos!
-        </div>
+        <h1 class="text-5xl">{{role.title}}</h1>
+        <div>{{role.description}}</div>
         <div class="p-8">
           <h3 class="text-3xl">feedback guide</h3>
           <div>
@@ -28,7 +24,15 @@
 </template>
 
 <script>
-export default {};
+import roles from "@/assets/roles.json";
+export default {
+  asyncData({ params }) {
+    let role = roles.find( x => x.slug === params.slug)
+    return {
+      role
+    }
+  }
+};
 </script>
 
 <style></style>

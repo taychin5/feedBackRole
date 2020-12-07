@@ -1,43 +1,39 @@
 <template>
   <div class="container">
     <h1 class="text-center">Assign role to participants</h1>
-    <div v-for="(item, i) in role" :key="`card-${i}`">
-      <div>
-        <img src="/testPic.png" alt="" />
-        <div v-if="item.paticipants && item.paticipants.length">
-          <div v-for="(pati, i) in item.paticipants" :key="`pati-${i}`">
-            <b-field label="Name">
-              <b-input v-model="item.paticipants[i]"></b-input>
-            </b-field>
-          </div>
+    <div class="grid grid-cols-3 gap-8">
+      <div v-for="(item, i) in exportRoles" :key="`card-${i}`">
+        <!-- TODO : Layout!!! -->
+        <div>
+          <img :src="item.cardImage" alt="" />
+          <button @click="addItem(item)">add</button>
         </div>
       </div>
-      <div>
-        <button @click="addItem(item)">add</button>
-      </div>
     </div>
-    <!-- submit -->
     <div>
+    <!-- submit -->
       <button @click="submit()">submit</button>
     </div>
   </div>
 </template>
 
 <script>
+import roles from "@/assets/roles.json";
 export default {
+  asyncData({query}){
+    let selectedRoles = query.roles.split(',')
+    console.log(selectedRoles)
+    let exportRoles = roles.filter(x=> selectedRoles.includes(x.slug))
+    return {
+      exportRoles
+    }
+  },
   data: () => ({
-    role: [
-      {
-        paticipants: null
-      },
-      {
-        paticipants: null
-      }
-    ],
     isLoading: false
   }),
   methods: {
     addItem(item) {
+      console.log(item)
       if (!item.paticipants) return (item.paticipants = ["/"]);
       item.paticipants.push("/");
     },
