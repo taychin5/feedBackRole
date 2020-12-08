@@ -30,13 +30,23 @@
               </b-field>
             </div>
           </div>
-          <button @click="addItem(item)" class="mt-4 ml-16 px-16 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white">add participant</button>
+          <button
+            @click="addItem(item)"
+            class="mt-4 ml-16 px-16 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white"
+          >
+            add participant
+          </button>
         </div>
       </div>
     </div>
     <div class="mt-10 mb-2 flex justify-center">
       <!-- submit -->
-      <button @click="submit()" class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">submit</button>
+      <button
+        @click="submit()"
+        class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+      >
+        submit
+      </button>
     </div>
   </div>
 </template>
@@ -66,7 +76,10 @@ export default {
       this.paticipants.find(x => x.slug === item.slug).paticipants.push("");
     },
     async submit() {
-      await this.$axios.$post(`api/email`, this.paticipants);
+      await this.$axios.$post(
+        `https://asia-southeast2-instant-pivot-298007.cloudfunctions.net/send-email-ten`,
+        this.paticipants
+      );
       this.$router.push("/complete");
     }
   }

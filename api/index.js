@@ -18,9 +18,10 @@ app.all("/email", async (req, res) => {
     let mailOptions = {
       from: "vindication@enron.com",
       to: element.paticipants,
-      subject: element.title,
+      subject: element.slug,
       text: "test"
     };
+    console.log(element);
     await transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         console.log(error);

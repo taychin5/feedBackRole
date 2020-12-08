@@ -19,7 +19,6 @@ export default {
 
   axios: {
     debug: false,
-    baseURL: "/",
     progress: true
   },
   // Global CSS (https://go.nuxtjs.dev/config-css)
