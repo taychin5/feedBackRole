@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-center">Assign role to participants</h1>
+    <h1 class="text-center mb-10 text-2xl font-bold">Assign role to participants</h1>
     <div class="grid grid-cols-3 gap-8">
       <div v-for="(item, i) in exportRoles" :key="`card-${i}`">
         <!-- TODO : Layout!!! -->
@@ -25,18 +25,19 @@
                     paticipants.find(x => x.slug === item.slug).paticipants[i]
                   "
                   type="email"
+                  class="w-4/6 mx-auto mt-4"
                 >
                 </b-input>
               </b-field>
             </div>
           </div>
-          <button @click="addItem(item)" class="mt-4 ml-16 px-16 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white">add participant</button>
+          <button @click="addItem(item)" class="mt-4 flex mx-auto px-16 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white">add participant</button>
         </div>
       </div>
     </div>
     <div class="mt-10 mb-2 flex justify-center">
       <!-- submit -->
-      <button @click="submit()" class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">submit</button>
+      <button @click="submit()" class="px-6 py-2 mb-10 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">submit</button>
     </div>
   </div>
 </template>

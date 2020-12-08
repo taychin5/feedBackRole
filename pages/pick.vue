@@ -1,22 +1,22 @@
 <template>
   <div class="container">
     <!-- TODO: layout -->
-    <h1 class="text-3xl">Select the cards for yout feedback session</h1>
+    <h1 class="text-2xl text-center mb-10 font-bold">Select the cards for yout feedback session</h1>
     <div class="grid grid-cols-6 gap-4">
       <div v-for="(card, i) in _roles" :key="`card-${i}`">
         <img
           @click="selectCard(card.slug)"
           :src="card.cardImage"
           alt=""
-          class="shadow"
+          class="shadow cursor-pointer"
           :class="{ '-active': selectedCard.includes(card.slug) }"
         />
       </div>
       <!-- TODO: IF NOT SELECTED DISABLE -->
-      <div>
-        <n-link :to="`/assign?roles=${_selectedRoleString}`">next</n-link>
-      </div>
     </div>
+      <div class="flex justify-center mt-10 mb-20">
+        <n-link :to="`/assign?roles=${_selectedRoleString}`" class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">next</n-link>
+      </div>
   </div>
 </template>
 
@@ -53,6 +53,7 @@ export default {
 
 <style lang="scss" scoped>
 .-active {
-  border: 2px solid plum;
+  border: 4px solid #6A4DFF;
+  border-radius: 0.75rem;
 }
 </style>

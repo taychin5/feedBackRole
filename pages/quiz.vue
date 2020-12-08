@@ -12,10 +12,10 @@
           <div
             v-for="(choice, i) in choices"
             :key="`chocies1-${i}`"
-            class="my-2"
+            class="my-2 px-4"
           >
             <div
-              class="card p-2 cursor-pointer"
+              class="choice py-2 px-4 cursor-pointer flex mx-auto"
               @click="stepOneSelected = choice.slug"
               :class="{ '-active': stepOneSelected === choice.slug }"
             >
@@ -34,10 +34,10 @@
           <div
             v-for="(choiceTwo, i) in choicesTwo"
             :key="`chocies2-${i}`"
-            class="my-2"
+            class="my-2 px-4"
           >
             <div
-              class="card p-2 cursor-pointer"
+              class="choice py-2 px-4 cursor-pointer flex mx-auto"
               @click="stepTwoSelected = choiceTwo.slug"
               :class="{ '-active': stepTwoSelected === choiceTwo.slug }"
             >
@@ -106,7 +106,7 @@ export default {
   },
   methods: {
     selectStepOne() {
-      if (!this.stepOneSelected) return (this.errorMsg = "Please select before move on");
+      if (!this.stepOneSelected) return (this.errorMsg = "Sorry if the categories below does not match your project, please try custom selection");
       this.step++;
     },
     selectStepTwo() {
