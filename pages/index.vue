@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container my-20">
+    <div class="container my-16">
       <div class="grid grid-cols-5 gap-16 items-center">
         <div class=" col-span-5 md:col-span-3">
           <h1 class="text-5xl font-bold leading-tight mb-4">A character cards for your feedback session</h1>
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class=" col-span-5 md:col-span-2 ">
-          <img class=" mx-auto" src="/landing.png" alt="" />
+          <img class=" mx-auto transition hover:scale-110" src="/boxcard2.png" alt="" />
         </div>
       </div>
     </div>

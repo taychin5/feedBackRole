@@ -4,83 +4,95 @@
     "slug": "critiquer",
     "description": "You're a person who often spots the flaw in every design. You are looking at a room for improvement. Your feedback might seem cruel, but you have a good intention. Be honest. Tell the designer what's their design is lacking.",
     "mainImage": "/critiquer-set.png",
-    "cardImage": "/card/critiquer-card.png"
+    "cardImage": "/card/critiquer-card.png",
+    "cardColor":"#9f85bc"
   },
   {
     "title": "The inspector",
     "slug": "inspector",
     "description": "You're a person who helps the designer re-check their project. You will be focusing on the user's need, requirement and the goal that designer want to achieve. Then, you will be thinking about does the outcome answered what is mentioned. If yes, excellent job to the designer, if not, what is your concern?",
     "mainImage": "/inspector-set.png",
-    "cardImage": "/card/inspector-card.png"
+    "cardImage": "/card/inspector-card.png",
+    "cardColor":"#8A5C78"
   },
   {
     "title": "The environmentalist",
     "slug": "environmentalist",
     "description": "You're a person who concerns about the environmental impact. You'll be considering how the design could provide a negative impact on our world. How can designer develop their design to be less harmful to the earth? Keep the word sustainable in mind!",
     "mainImage": "/envir-set.png",
-    "cardImage": "/card/envir-card.png"
+    "cardImage": "/card/envir-card.png",
+    "cardColor":"#4DC783"
   },
   {
     "title": "The creative",
     "slug": "creative",
     "description": "You're a realistic dreamer who always comes up with a new idea. You'll help them elevate the current concept or help them come up with a new inspiring one. Try to think outside the box! Your suggestion could help the designer achieve a wow solution.",
     "mainImage": "/creative-set.png",
-    "cardImage": "/card/creative-card.png"
+    "cardImage": "/card/creative-card.png",
+    "cardColor":"#FFCB33"
   },
   {
     "title": "The contributor",
     "slug": "contributor",
     "description": "You're a person who only looks for a good thing in the design. You'll be telling the designer about what have they done well and what they should keep. You will be suggesting how the designer can contribute to their design and make it better.",
     "mainImage": "/contributor-set.png",
-    "cardImage": "/card/contributor-card.png"
+    "cardImage": "/card/contributor-card.png",
+    "cardColor":"#FF5900"
   },
   {
     "title": "The business brain",
     "slug": "business-brain",
     "description": "You're a person who always thinks of how the product will enter the market. Consider Not only the sale strategy but also the possible partnership. Does this product have good entice? or How can the product beat their competitor? This could be a good question to ask.",
     "mainImage": "/bb-set.png",
-    "cardImage": "/card/bb-card.png"
+    "cardImage": "/card/bb-card.png",
+    "cardColor":"#2954CD"
   },
   {
     "title": "The visioner",
     "slug": "visioner",
     "description": "You're a person who loves to focus on the process and method used. You'll suggest the designer what should be done in the next step also, mention a suitable tool. Because the process behind is a significant factor that leads to the outcome, you need to question the method used.",
     "mainImage": "/visioner-set.png",
-    "cardImage": "/card/visioner-card.png"
+    "cardImage": "/card/visioner-card.png",
+    "cardColor":"#908B00"
   },
   {
     "title": "The curious",
     "slug": "curious",
     "description": "You always question everything you saw or perceived. Why is your favourite word. It would be best if you left the designer with something they could think about or something they should be able to answer in the future. Challenge the designer by asking them a question is your task!",
     "mainImage": "/curious-set.png",
-    "cardImage": "/card/curious-card.png"
+    "cardImage": "/card/curious-card.png",
+    "cardColor":"#008BC8"
   },
   {
     "title": "The tech expert",
     "slug": "tech-expert",
     "description": "You're a person who obsesses with technology. You will be concerning how technology could play a role in the design outcome. You could ask the designer a question about the technology they choose to use in their design or suggest them with alternative tools.",
     "mainImage": "/tech-set.png",
-    "cardImage": "/card/tech-card.png"
+    "cardImage": "/card/tech-card.png",
+    "cardColor":"#B8B6A9"
   },
   {
     "title": "The maker",
     "slug": "maker",
     "description": "You are a maker who focuses on the production stage of the design. You'll be concerning about the manufacturing or crafting process. Question yourself and challenge the designer of how they can make the design happen!",
     "mainImage": "/maker-set.png",
-    "cardImage": "/card/maker-card.png"
+    "cardImage": "/card/maker-card.png",
+    "cardColor":"#C39465"
   },
   {
     "title": "The builder",
     "slug": "builder",
     "description": "You are a person who concentrates on how the design looks. You will be giving a thought about the visual part of the design. Things you will be considering are colour, font, illustration, layout or photos. You can also suggest the designer an art direction or the mood and tone that you found suitable for their project.",
     "mainImage": "/builder-set.png",
-    "cardImage": "/card/builder-card.png"
+    "cardImage": "/card/builder-card.png",
+    "cardColor":"#48B9B2"
   },
   {
     "title": "The aesthetic pleaser",
     "slug": "aesthetic-pleaser",
     "description": "You're a person who view everything in 3D perspective. You always amaze by the complicate but seamless structure. Taking builder role, you'll focus on the shape and structure of the design. You will not only help the designer improve their 3D form, but also give some suggestion about the mock-up model.",
     "mainImage": "/ap-set.png",
-    "cardImage": "/card/ap-card.png"
+    "cardImage": "/card/ap-card.png",
+    "cardColor":"#D75C67"
   }
 ]

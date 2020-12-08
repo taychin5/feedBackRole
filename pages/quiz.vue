@@ -9,17 +9,19 @@
           :error="errorMsg"
           title="What is your project category?"
         >
-          <div
-            v-for="(choice, i) in choices"
-            :key="`chocies1-${i}`"
-            class="my-2"
-          >
+          <div class="mt-8">
             <div
-              class="card p-2 cursor-pointer"
-              @click="stepOneSelected = choice.slug"
-              :class="{ '-active': stepOneSelected === choice.slug }"
+              v-for="(choice, i) in choices"
+              :key="`chocies1-${i}`"
+              class="my-2 px-4"
             >
-              {{ choice.title }}
+              <div
+                class="choice py-2 px-4 cursor-pointer flex mx-auto transition duration-200"
+                @click="stepOneSelected = choice.slug"
+                :class="{ '-active': stepOneSelected === choice.slug }"
+              >
+                {{ choice.title }}
+              </div>
             </div>
           </div>
         </QuizHeading>
@@ -31,17 +33,19 @@
           @next="selectStepTwo"
           title="What kind of feedback do you expect from the session"
         >
-          <div
-            v-for="(choiceTwo, i) in choicesTwo"
-            :key="`chocies2-${i}`"
-            class="my-2"
-          >
+          <div class="mt-8">
             <div
-              class="card p-2 cursor-pointer"
-              @click="stepTwoSelected = choiceTwo.slug"
-              :class="{ '-active': stepTwoSelected === choiceTwo.slug }"
+              v-for="(choiceTwo, i) in choicesTwo"
+              :key="`chocies2-${i}`"
+              class="my-2 px-4"
             >
-              {{ choiceTwo.title }}
+              <div
+                class="choice py-2 px-4 cursor-pointer flex mx-auto"
+                @click="stepTwoSelected = choiceTwo.slug"
+                :class="{ '-active': stepTwoSelected === choiceTwo.slug }"
+              >
+                {{ choiceTwo.title }}
+              </div>
             </div>
           </div>
         </QuizHeading>
@@ -64,7 +68,7 @@ export default {
     choicesTwo: [
       { title: "I’m looking for some idea", slug: "idea" },
       { title: "Concept and design development", slug: "develop" },
-      { title: "PA final check feedback", slug: "check" }
+      { title: "I need final check feedback", slug: "check" }
     ],
     stepOneSelected: "",
     stepTwoSelected: "",
@@ -81,7 +85,8 @@ export default {
       },
       packaing: {
         idea: "creative,visioner,inspector,builder",
-        develop: "environmentalist,inspector,visioner,builder,aesthetic-pleaser",
+        develop:
+          "environmentalist,inspector,visioner,builder,aesthetic-pleaser",
         check:
           "environmentalist,maker,aesthetic-pleaser,business-brain,inspector"
       },
@@ -106,11 +111,14 @@ export default {
   },
   methods: {
     selectStepOne() {
-      if (!this.stepOneSelected) return (this.errorMsg = "Please select before move on");
+      if (!this.stepOneSelected)
+        return (this.errorMsg =
+          "Sorry if the categories below does not match your project, please try custom selection");
       this.step++;
     },
     selectStepTwo() {
-      if (!this.stepTwoSelected) return (this.errorMsg = "Let us know what you need");
+      if (!this.stepTwoSelected)
+        return (this.errorMsg = "Let us know what you need");
       this.step++;
     }
   }
