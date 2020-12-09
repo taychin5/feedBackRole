@@ -14,12 +14,12 @@
           <div class="flex mt-8">
             <n-link
               to="/pick"
-              class="px-6 py-2 rounded-full shadow mr-4 bg-white text-black hover:text-purple-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+              class="whiteButton mr-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
               >Pick the cards</n-link
             >
             <n-link
               to="/quiz"
-              class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+              class="blackButton transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
             >
               Let’s us pick
             </n-link>
@@ -53,12 +53,12 @@
         <div class="flex justify-center">
           <n-link
             to="/pick"
-            class="px-6 py-2 rounded-full shadow mr-4 bg-white text-black hover:text-purple-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+            class="mr-4 whiteButton transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
             >Pick the cards
           </n-link>
           <n-link
             to="/quiz"
-            class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+            class="blackButton transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
           >
             Let’s us pick
           </n-link>
