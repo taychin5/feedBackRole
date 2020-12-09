@@ -105,6 +105,18 @@ html {
     border: 3px solid #6a4dff;
   }
   &:hover {
-    background-color: lightgrey;
+    background-color: #F5F5F5;
+  }
+}
+
+.outlineButton {
+  border: 1px solid #6a4dff;
+  border-radius: 0.5rem;
+  margin-left: 30%;
+  margin-right: 30%;
+
+  &:hover {
+    color: white;
+    background-color: #6a4dff;
   }
 }

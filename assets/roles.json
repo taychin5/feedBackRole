@@ -3,6 +3,7 @@
     "title": "The critiquer",
     "slug": "critiquer",
     "description": "You're a person who often spots the flaw in every design. You are looking at a room for improvement. Your feedback might seem cruel, but you have a good intention. Be honest. Tell the designer what's their design is lacking.",
+    "guide":"",
     "mainImage": "/critiquer-set.png",
     "cardImage": "/card/critiquer-card.png",
     "cardColor":"#9f85bc"
