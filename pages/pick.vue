@@ -4,13 +4,13 @@
     <h1 class="text-2xl text-center mb-10 font-bold">
       Select the cards for yout feedback session
     </h1>
-    <div class="grid grid-cols-6 gap-4">
+    <div class="grid md:grid-cols-6 grid-cols-2 gap-4">
       <div v-for="(card, i) in _roles" :key="`card-${i}`">
         <img
           @click="selectCard(card.slug)"
           :src="card.cardImage"
           alt=""
-          class="shadow cursor-pointer transform hover:scale-105 transition duration-400"
+          class="shadow cursor-pointer transform hover:scale-105 transition duration-300"
           :class="{ '-active': selectedCard.includes(card.slug) }"
         />
       </div>

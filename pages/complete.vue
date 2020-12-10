@@ -10,12 +10,14 @@
           <h2 class="text-center mt-10 text-xl font-bold">
             Get your presentation ready for feedback!
           </h2>
-          <n-link
-            to="/sequence"
-            class="flex justify-center mt-8 mb-20 outlineButton py-2 px-4"
-          >
-            see feedback sequence
-          </n-link>
+          <div class="flex justify-center">
+            <n-link
+              to="/sequence"
+              class=" mt-8 mb-20 outlineButton py-2 px-4 transition duration-300"
+            >
+              see feedback sequence
+            </n-link>
+          </div>
         </div>
       </div>
     </div>

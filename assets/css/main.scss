@@ -1,88 +1,8 @@
-// Import Bulma's core
-@import "~bulma/sass/utilities/_all";
-
-// Set your colors
-$primary: #6a4dff;
-$primary-light: findLightColor($primary);
-$primary-dark: findDarkColor($primary);
-$primary-invert: findColorInvert($primary);
-$twitter: #4099ff;
-$twitter-invert: findColorInvert($twitter);
-
-// Lists and maps
-$custom-colors: null !default;
-$custom-shades: null !default;
-
-// Setup $colors to use as bulma classes (e.g. 'is-twitter')
-$colors: mergeColorMaps(
-  (
-    "white": (
-      $white,
-      $black
-    ),
-    "black": (
-      $black,
-      $white
-    ),
-    "light": (
-      $light,
-      $light-invert
-    ),
-    "dark": (
-      $dark,
-      $dark-invert
-    ),
-    "primary": (
-      $primary,
-      $primary-invert,
-      $primary-light,
-      $primary-dark
-    ),
-    "link": (
-      $link,
-      $link-invert,
-      $link-light,
-      $link-dark
-    ),
-    "info": (
-      $info,
-      $info-invert,
-      $info-light,
-      $info-dark
-    ),
-    "success": (
-      $success,
-      $success-invert,
-      $success-light,
-      $success-dark
-    ),
-    "warning": (
-      $warning,
-      $warning-invert,
-      $warning-light,
-      $warning-dark
-    ),
-    "danger": (
-      $danger,
-      $danger-invert,
-      $danger-light,
-      $danger-dark
-    )
-  ),
-  $custom-colors
-);
-
-// Links
-$link: $primary;
-$link-invert: $primary-invert;
-$link-focus-border: $primary;
-
-// Import Bulma and Buefy styles
-@import "~bulma";
-@import "~buefy/src/scss/buefy";
+@import "./_buefy.scss";
+@import "./_fonts.scss";
 
 * {
-  font-family: "Jost", sans-serif;
+  font-family: "silka", sans-serif !important;
 }
 .db {
   border: 1px solid red;
@@ -105,63 +25,46 @@ html {
     border: 3px solid #6a4dff;
   }
   &:hover {
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
   }
 }
 
 .outlineButton {
   border: 1px solid #6a4dff;
   border-radius: 0.5rem;
-  margin-left: 30%;
-  margin-right: 30%;
-
+  display: inline-flex;
   &:hover {
     color: white;
     background-color: #6a4dff;
   }
 }
 
-.outlineButton2 {
-    border: 1px solid #6a4dff;
-    border-radius: 9999px;
-    margin-left: 40%;
-    margin-top: 5%;
-  &:hover {
-    color: white;
-    background-color: #6a4dff;
-  }
-}
-
-.blackButton{
-  padding-right:3rem ;
+.blackButton {
+  padding-right: 3rem;
   padding-left: 3rem;
-  padding-top:0.5rem;
-  padding-bottom:0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-radius: 9999px;
-  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
-  0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-  var(--tw-ring-shadow, 0 0 #0000),
-  var(--tw-shadow);
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   background-color: black;
   color: white;
   &:hover {
     background-color: #6a4dff;
     color: white;
-    }
+  }
 }
 
 .whiteButton {
-  padding-right:3rem;
+  padding-right: 3rem;
   padding-left: 3rem;
-  padding-top:0.5rem;
-  padding-bottom:0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-radius: 9999px;
-  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
-  0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-  var(--tw-ring-shadow, 0 0 #0000),
-  var(--tw-shadow);
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   background-color: white;
   color: black;
 
@@ -177,11 +80,9 @@ html {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-radius: 9999px;
-  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
-    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000),
-    var(--tw-shadow);
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   background-color: black;
   color: white;
 
@@ -194,11 +95,10 @@ html {
 .sequenceBox {
   background-color: white;
   border-radius: 0.25rem;
-   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-   0 2px 4px -1px rgba(0, 0, 0, 0.06);
-   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-   var(--tw-ring-shadow, 0 0 #0000),
-   var(--tw-shadow);
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   margin-top: 0.5rem;
   padding: 1rem 1rem 1rem 1.5rem;
 }

@@ -45,8 +45,6 @@
               :color="card.cardColor"
             ></FlipCard>
           </n-link>
-
-          <!-- <img src="/card.png" alt="" /> -->
         </div>
       </div>
       <div class="my-20">
