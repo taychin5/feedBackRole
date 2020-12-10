@@ -19,10 +19,10 @@
         <div class="sequenceBox">
           <div class="grid grid-cols-4 gap-4">
             <div class="col-start-1 col-end-2">
-              <img class="w-2/5" src="/number/1.png" />
+              <img class="w-2/5 mr-2" src="/number/1.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The inspector</h4>
+              <h4 class="-ml-16 text-xl font-bold">The inspector</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -39,7 +39,7 @@
               <img class="w-2/5" src="/number/2.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The critiquer</h4>
+              <h4 class="-ml-16 text-xl font-bold">The critiquer</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -57,7 +57,7 @@
               <img class="w-2/5" src="/number/3.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The contributor</h4>
+              <h4 class="-ml-16 text-xl font-bold">The contributor</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -75,7 +75,7 @@
               <img class="w-2/5" src="/number/4.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The creative</h4>
+              <h4 class="-ml-16 text-xl font-bold">The creative</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -93,7 +93,7 @@
               <img class="w-2/5" src="/number/5.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The builder</h4>
+              <h4 class="-ml-16 text-xl font-bold">The builder</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -111,7 +111,7 @@
               <img class="w-2/5" src="/number/6.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The aesthetic pleaser</h4>
+              <h4 class="-ml-16 text-xl font-bold">The aesthetic pleaser</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -129,7 +129,7 @@
               <img class="w-2/5" src="/number/7.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The maker</h4>
+              <h4 class="-ml-16 text-xl font-bold">The maker</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -147,7 +147,7 @@
               <img class="w-2/5" src="/number/8.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The tech expert</h4>
+              <h4 class="-ml-16 text-xl font-bold">The tech expert</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -165,7 +165,7 @@
               <img class="w-2/5" src="/number/9.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The environmentalist</h4>
+              <h4 class="-ml-16 text-xl font-bold">The environmentalist</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -183,7 +183,7 @@
               <img class="w-2/5" src="/number/10.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The business brain</h4>
+              <h4 class="-ml-16 text-xl font-bold">The business brain</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -201,7 +201,7 @@
               <img class="w-2/5" src="/number/11.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The visioner</h4>
+              <h4 class="-ml-16 text-xl font-bold">The visioner</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>
@@ -219,7 +219,7 @@
               <img class="w-2/5" src="/number/12.png" />
             </div>
             <div class="col-start-2 col-end-4">
-              <h4 class="-ml-20 text-xl font-bold">The curious</h4>
+              <h4 class="-ml-16 text-xl font-bold">The curious</h4>
             </div>
             <div class="col-start-1 col-end-5">
               <p>

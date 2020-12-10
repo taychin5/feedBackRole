@@ -33,10 +33,7 @@
               </b-field>
             </div>
           </div>
-          <button
-            @click="addItem(item)"
-            class="mt-4 flex mx-auto px-16 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white"
-          >
+          <button @click="addItem(item)" class="mt-4 flex mx-auto addButton">
             add participant
           </button>
         </div>
@@ -46,7 +43,7 @@
       <!-- submit -->
       <button
         @click="submit()"
-        class="px-6 py-2 mb-10 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+        class="mb-10 blackButton transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
       >
         submit
       </button>

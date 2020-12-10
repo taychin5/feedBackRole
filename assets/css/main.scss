@@ -121,6 +121,17 @@ html {
   }
 }
 
+.outlineButton2 {
+    border: 1px solid #6a4dff;
+    border-radius: 9999px;
+    margin-left: 40%;
+    margin-top: 5%;
+  &:hover {
+    color: white;
+    background-color: #6a4dff;
+  }
+}
+
 .blackButton{
   padding-right:3rem ;
   padding-left: 3rem;
@@ -157,6 +168,26 @@ html {
   &:hover {
     background-color: white;
     color: #6a4dff;
+  }
+}
+
+.addButton {
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 9999px;
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+  background-color: black;
+  color: white;
+
+  &:hover {
+    background-color: #6a4dff;
+    color: white;
   }
 }
 

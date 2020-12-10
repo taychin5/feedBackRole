@@ -1,15 +1,15 @@
 <template>
   <div>
     <div class="container my-16">
-      <div class="grid grid-cols-5 gap-16 items-center">
+      <div class="grid grid-cols-5 gap-16 items-center mt-16">
         <div class=" col-span-5 md:col-span-3">
           <h1 class="text-5xl font-bold leading-tight mb-4">
             A character cards for your feedback session
           </h1>
           <div class="mt-2">
             We’ll provide you with a bundle of character card to be used in your
-            feedback session. <br />The bundle is claimed by the users that it
-            help made the session become more effective and engaging.
+            feedback session. The bundle is claimed by the users that it help
+            made the session become more effective and engaging.
           </div>
           <div class="flex mt-8">
             <n-link
@@ -28,7 +28,7 @@
         <div class=" col-span-5 md:col-span-2 ">
           <img
             class=" mx-auto transition hover:scale-110"
-            src="/boxcard2.png"
+            src="/intro.png"
             alt=""
           />
         </div>
@@ -36,7 +36,7 @@
     </div>
     <div class="container my-20">
       <h1 class="text-center text-3xl my-20 font-bold">Explore the bundle</h1>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
         <div v-for="(card, i) in _roles" :key="`card-${i}`">
           <n-link :to="`role/${card.slug}`">
             <FlipCard

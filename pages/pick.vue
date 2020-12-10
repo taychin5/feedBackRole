@@ -19,7 +19,7 @@
     <div class="flex justify-center mt-10 mb-20">
       <n-link
         :to="`/assign?roles=${_selectedRoleString}`"
-        class="px-6 py-2 rounded-full shadow bg-black text-white hover:bg-purple-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+        class="px-6 py-2 blackButton transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
         >next</n-link
       >
     </div>
