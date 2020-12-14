@@ -5,7 +5,7 @@
     </div>
     <div class="flipcard_back shadow" :style="`background-color:${color}`">
       <div class="flipcard_description">
-        {{description}}
+        {{ description }}
       </div>
     </div>
   </div>
