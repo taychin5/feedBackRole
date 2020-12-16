@@ -106,3 +106,42 @@ html {
 .sqphoto {
   margin-top: 24rem;
 }
+
+.paddingLeft {
+  padding-left: 70%;
+}
+
+.purpleText {
+  color: #6a4dff;
+}
+
+.curveBg {
+  
+}
+
+.onTop {
+  z-index: 9;
+}
+
+.bubble {
+  position: relative;
+  width: 500px;
+  background: #6a4dff;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+
+.bubble-bottom-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-right: 24px solid #6a4dff;
+  border-left: 12px solid transparent;
+  border-top: 12px solid #6a4dff;
+  border-bottom: 20px solid transparent;
+  left: 430px;
+  bottom: -24px;
+}
