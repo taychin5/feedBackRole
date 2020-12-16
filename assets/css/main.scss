@@ -7,7 +7,11 @@
 .db {
   border: 1px solid red;
 }
-html {
+
+body {
+  max-width: 100% !important;
+  overflow: hidden;
+  overflow-y: auto;
   background-color: #f3f4f6;
 }
 
@@ -116,7 +120,6 @@ html {
 }
 
 .curveBg {
-  
 }
 
 .onTop {

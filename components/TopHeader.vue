@@ -1,19 +1,21 @@
 <template>
   <div class="container py-10">
-    <div class="grid md:grid-cols-5 grid-cols-2 gap-4 items-center">
+    <div class="grid md:grid-cols-5 grid-cols-1 gap-4 items-center">
       <div class="md:col-start-1 md:col-end-2">
         <n-link to="/" class=" inline-flex items-center">
           <img class=" w-8" src="/favicon01.png" alt="" />
           <div class=" ml-4 font-bold text-lg">Feedback role</div>
         </n-link>
       </div>
-      <div class="md:col-start-3 md:col-end-4">
+      <div class="md:col-start-3 md:col-end-4 hidden md:block">
         <n-link to="/about" class=" flex paddingLeft">About</n-link>
       </div>
-      <div class="md:col-start-4 md:col-end-5">
-        <n-link to="/howitswork" class="flex justify-center">How its work</n-link>
+      <div class="md:col-start-4 md:col-end-5 hidden md:block">
+        <n-link to="/howitswork" class="flex justify-center"
+          >How its work</n-link
+        >
       </div>
-      <div class="md:col-start-5 md:col-end-6 text-right">
+      <div class="md:col-start-5 md:col-end-6 text-right hidden md:block">
         <a
           href="/google"
           target="blank"

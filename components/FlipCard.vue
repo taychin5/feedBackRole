@@ -33,13 +33,17 @@ export default {
 <style lang="scss" scoped>
 .flipcard {
   margin: 25px auto;
-  height: 350px;
-  width: 240px;
+  height: 30vh;
+  width: 100%;
   position: relative;
   perspective: 700px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   text-align: center;
+  @screen sm {
+    height: 350px;
+    width: 240px;
+  }
 }
 
 .flipcard_front{

@@ -36,8 +36,8 @@
     </div>
     <div class="container my-20">
       <h1 class="text-center text-3xl my-20 font-bold">Explore the bundle</h1>
-      <div class="w-4/6 mx-auto">
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="xl:w-4/6 mx-auto">
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-8">
           <div v-for="(card, i) in _roles" :key="`card-${i}`">
             <n-link :to="`role/${card.slug}`">
               <FlipCard
