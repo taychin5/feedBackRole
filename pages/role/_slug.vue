@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div><n-link to="/"> back to the bundle </n-link></div>
+    <div><n-link to="/"><i class="arrowLeft"></i> back to the bundle </n-link></div>
     <div class="sm:grid grid-cols-5 mt-16">
       <div class="col-span-2">
         <img class="w-3/4 mx-auto" v-bind:src="role.mainImage" alt="" />

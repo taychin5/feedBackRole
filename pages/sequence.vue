@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="grid md:grid-cols-4 grid-cols-1 gap-4">
+    <div class="grid md:grid-cols-4 grid-cols-1 gap-4 mb-20">
       <div class="col-start-1 col-end-2 md:block hidden">
         <img class="mt-10" src="/sequence/left.png" />
         <img class="mt-64" src="/sequence/left2.png" />
@@ -12,8 +12,7 @@
           Recommended feedback sequence
         </h1>
         <h3 class="text-lg text-center mb-10">
-          This is just our recommendation, if you have your own sequence
-          <br />Go ahead!
+          This is just our recommendation. If you have create your own sequence list, Go ahead!
         </h3>
         <!-- number 01: inspector-->
         <div
@@ -54,62 +53,62 @@ export default {
   data: () => ({
     sequences: [
       {
-        title: "The inspector",
+        title: "The Inspector",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Critiquer",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Creative",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Contributor",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Builder",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Maker",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Tech expert",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Aesthetic pleaser",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Business brain",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Environmentalist",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Curious",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       },
       {
-        title: "The inspector",
+        title: "The Visioner",
         description:
           "A person who helps you re-check if your design outcome answered the user's need and requirement."
       }

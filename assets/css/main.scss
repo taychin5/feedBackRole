@@ -119,8 +119,15 @@ body {
   color: #6a4dff;
 }
 
-.curveBg {
+.purpleBg {
+  background-color: #6a4dff;
 }
+
+.whiteText {
+  color: white;
+}
+
+
 
 .onTop {
   z-index: 9;
@@ -147,4 +154,30 @@ body {
   border-bottom: 20px solid transparent;
   left: 430px;
   bottom: -24px;
+}
+
+.circleShadow {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    // -webkit-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+    // -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  border-radius: 9999px;
+}
+
+.arrowLeft {
+  border: solid #6a4dff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+    &:hover {
+      border:solid black;
+      border-width: 0 2px 2px 0;
+    }
+}
+
+.verLine {
+    border-left: 4px solid #6a4dff;
+    height: 200px;
 }
