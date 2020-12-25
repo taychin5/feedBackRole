@@ -17,7 +17,7 @@
       </div>
       <div class="md:col-start-5 md:col-end-6 text-right hidden md:block">
         <a
-          href="/google"
+          href="https://drive.google.com/file/d/1iJToxAHQV1uDGYP3rkQ7d-xEtP36n_0C/view?usp=sharing"
           target="blank"
           rel="noopener"
           class="outlineButton px-5 py-2 transform transition duration-500 ease-in-out hover:scale-110 hover:-translate-y-1"

@@ -6,13 +6,13 @@
         <img class="w-3/4 mx-auto" v-bind:src="role.mainImage" alt="" />
       </div>
       <div class="col-span-3 md:ml-20">
-        <h1 class="text-5xl font-bold">{{ role.title }}</h1>
+        <h1 class="text-4xl font-bold">{{ role.title }}</h1>
         <div class="pb-8">{{ role.description }}</div>
         <div
           class="box-content border-none bg-white rounded-xl px-8 py-4 shadow"
         >
-          <h3 class="text-3xl font-semibold">Question guide</h3>
-          <div>{{ role.guide }}</div>
+          <h3 class="text-2xl font-semibold">Question guide</h3>
+          <div v-html="role.guide"></div>
         </div>
       </div>
     </div>

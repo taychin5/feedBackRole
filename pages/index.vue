@@ -27,8 +27,8 @@
         </div>
         <div class=" col-span-5 md:col-span-2 ">
           <img
-            class=" mx-auto transition hover:scale-110"
-            src="/intro.png"
+            class=" mx-auto transition hover:scale-110 transform duration-500 ease-in-out"
+            src="/home.gif"
             alt=""
           />
         </div>

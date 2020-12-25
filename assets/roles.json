@@ -21,7 +21,7 @@
     "title": "The environmentalist",
     "slug": "environmentalist",
     "description": "You're a person who concerns about the environmental impact. You'll be considering how the design could provide a negative impact on our world. How can designer develop their design to be less harmful to the earth? Keep the word sustainable in mind!",
-    "guide":"The following is a guideline questions for environmentalist",
+    "guide":"Has the designer considered sustainable aspect in their design? <br> Does the designer think of their product life cycle? <br> Has the designer investigated an alternative? <br> Has the designer tried to reduce the resources that contribute to pollution?<br> Does the designer use recyclable material?",
     "mainImage": "/envir.png",
     "cardImage": "/card/envir-card.png",
     "cardColor":"#3EDB7D"
