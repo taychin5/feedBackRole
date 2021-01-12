@@ -60,57 +60,57 @@ export default {
       {
         title: "The Critiquer",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person who will be telling you what your design is lacking.They will also mention what you should get fixed."
       },
       {
         title: "The Creative",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A realistic dreamer who always comes up with a crazy alternative idea that will help inspire the designer one way or another."
       },
       {
         title: "The Contributor",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person who will be mentioning what the designer has done well and should be kept in their design. Also, suggest how to make it better."
       },
       {
         title: "The Builder",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person who focuses on the design's shape and structure also suggest the designer how they can improve their model."
       },
       {
         title: "The Maker",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person focuses on the production stage of the design, considering how the designer would make their design happen."
       },
       {
         title: "The Tech expert",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person will be consulting the technology aspect of the design; this covered suitability suggestion to the technical concern."
       },
       {
         title: "The Aesthetic pleaser",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person who concentrates on how the design looks and will be giving suggestion on the visual part of the design."
       },
       {
         title: "The Business brain",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person who will be considering about business aspect of the design. This covered how the product enters the market to how it makes money."
       },
       {
         title: "The Environmentalist",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person who concerns about the environmental impact and will help prevent your design from weaponising the earth."
       },
       {
         title: "The Curious",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person who will challenge the designer with a thought-provoking question or mention the possible pitfall in future scenarios."
       },
       {
         title: "The Visioner",
         description:
-          "A person who helps you re-check if your design outcome answered the user's need and requirement."
+          "A person who will be focusing on the process and method used. This included the next step suggestion and design tools recommendation."
       }
     ]
   }),

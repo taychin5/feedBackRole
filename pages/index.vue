@@ -7,9 +7,7 @@
             A character cards for your feedback session
           </h1>
           <div class="mt-2">
-            We’ll provide you with a bundle of character card to be used in your
-            feedback session. The bundle is claimed by the users that it help
-            made the session become more effective and engaging.
+            We’ll provide you with a bundle of character card to be used in your feedback session. The bundle is claimed by the users that it help made the session become more effective and engaging.
           </div>
           <div class="flex mt-8">
             <n-link

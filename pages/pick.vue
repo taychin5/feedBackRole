@@ -1,9 +1,12 @@
 <template>
   <div class="container">
     <!-- TODO: layout -->
-    <h1 class="text-2xl text-center mb-10 font-bold">
+    <h1 class="text-2xl text-center font-bold">
       Select the cards for yout feedback session
     </h1>
+    <h2 class="mb-10 text-center" >
+      You can select as many as you wish but we recommend you to have 4 to 5 role in the session
+    </h2>
     <div class="grid md:grid-cols-6 grid-cols-2 gap-4">
       <div v-for="(card, i) in _roles" :key="`card-${i}`">
         <img
