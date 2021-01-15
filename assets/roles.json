@@ -3,7 +3,7 @@
     "title": "The critiquer",
     "slug": "critiquer",
     "description": "You're a person who often spots the flaw in every design. You are looking at a room for improvement. Your feedback might seem cruel, but you have a good intention. Be honest. Tell the designer what's their design is lacking.",
-    "guide":"The following is a guideline questions for critiquer",
+    "guide":"What did you don't like about the design? <br> What do you think the designer should get fixed? <br> Does the designer choose the right design medium?",
     "mainImage": "/critiquer.png",
     "cardImage": "/card/critiquer-card.png",
     "cardColor":"#9F85BC"
@@ -12,7 +12,7 @@
     "title": "The inspector",
     "slug": "inspector",
     "description": "You're a person who helps the designer re-check their project. You will be focusing on the user's need, requirement and the goal that designer want to achieve. Then, you will be thinking about does the outcome answered what is mentioned. If yes, excellent job to the designer, if not, what is your concern?",
-    "guide":"The following is a guideline questions for inspector",
+    "guide":"Does the outcome meet the setup goal? <br> Does the design answer the HMW challenge? <br> Does it meet the requirement? <br> Is the outcome created on the right design medium? <br> Does it serve user's need?",
     "mainImage": "/inspector.png",
     "cardImage": "/card/inspector-card.png",
     "cardColor":"#A54281"
@@ -30,7 +30,7 @@
     "title": "The creative",
     "slug": "creative",
     "description": "You're a realistic dreamer who always comes up with a new idea. You'll help them elevate the current concept or help them come up with a new inspiring one. Try to think outside the box! Your suggestion could help the designer achieve a wow solution.",
-    "guide":"The following is a guideline questions for creative",
+    "guide":"Is there any reference that came into your mind and would be useful to the designer? <br> Offer designer some alternative idea that could also achieve their goal <br> Try thinking from a user perspective and see what's an inspiration that came out",
     "mainImage": "/creative.png",
     "cardImage": "/card/creative-card.png",
     "cardColor":"#FFC000"
@@ -39,7 +39,7 @@
     "title": "The contributor",
     "slug": "contributor",
     "description": "You're a person who only looks for a good thing in the design. You'll be telling the designer about what have they done well and what they should keep. You will be suggesting how the designer can contribute to their design and make it better.",
-    "guide":"The following is a guideline questions contributor",
+    "guide":"Suggest a way that designer could move on with this concept <br> What do you suggest the designer should keep?",
     "mainImage": "/contributor.png",
     "cardImage": "/card/contributor-card.png",
     "cardColor":"#FF5900"
@@ -48,7 +48,7 @@
     "title": "The business brain",
     "slug": "business-brain",
     "description": "You're a person who always thinks of how the product will enter the market. Consider Not only the sale strategy but also the possible partnership. Does this product have good entice? or How can the product beat their competitor? This could be a good question to ask.",
-    "guide":"The following is a guideline questions for business brain",
+    "guide":"Customer relationship <br> Is there any key partner the designer should consider having a collaboration? <br> What is the entice? Do you think the method will catch target attention? <br> Have the designer think of their fixed and variable cost of their product? <br> What is their value proposition? <br>Do you find the selected sales channel appropriate? <br> Revenue stream",
     "mainImage": "/bb.png",
     "cardImage": "/card/bb-card.png",
     "cardColor":"#2954CD"
@@ -57,7 +57,7 @@
     "title": "The visioner",
     "slug": "visioner",
     "description": "You're a person who loves to focus on the process and method used. You'll suggest the designer what should be done in the next step also, mention a suitable tool. Because the process behind is a significant factor that leads to the outcome, you need to question the method used.",
-    "guide":"The following is a guideline questions for visioner",
+    "guide":"What design methods or tools you would suggest the designer used in the next step? <br> What should the design get done next? <br> What designer need to do to move on to the next phase?",
     "mainImage": "/visioner.png",
     "cardImage": "/card/visioner-card.png",
     "cardColor":"#908B00"
@@ -66,7 +66,7 @@
     "title": "The curious",
     "slug": "curious",
     "description": "You always question everything you saw or perceived. Why is your favourite word. It would be best if you left the designer with something they could think about or something they should be able to answer in the future. Challenge the designer by asking them a question is your task!",
-    "guide":"The following is a guideline questions for curious",
+    "guide":"Think of an unexpected scenario that user might experience in the future when using the product <br> International challenge: Is the product can be used or apply in other countries context? <br> Does the design restrict to some user group only? How to make the design more inclusive? <br> Try putting yourself in user shoes, then questioning the design from that point of view.",
     "mainImage": "/curious.png",
     "cardImage": "/card/curious-card.png",
     "cardColor":"#008BC8"
@@ -75,7 +75,7 @@
     "title": "The tech expert",
     "slug": "tech-expert",
     "description": "You're a person who obsesses with technology. You will be concerning how technology could play a role in the design outcome. You could ask the designer a question about the technology they choose to use in their design or suggest them with alternative tools.",
-    "guide":"The following is a guideline questions for texh expert",
+    "guide":"Does the designer use the right technology? <br> Is there any alternative technology you would suggest the designer? <br> Extra skills required to complete the prototype/outcome? <br> Is there anything you concern about designer technology choice?",
     "mainImage": "/tech.png",
     "cardImage": "/card/tech-card.png",
     "cardColor":"#51657F"
@@ -84,7 +84,7 @@
     "title": "The maker",
     "slug": "maker",
     "description": "You are a maker who focuses on the production stage of the design. You'll be concerning about the manufacturing or crafting process. Question yourself and challenge the designer of how they can make the design happen!",
-    "guide":"The following is a guideline questions for the maker",
+    "guide":"Has the designer considered the production phase of their design yet? <br> How they plan to create the prototype? <br> Have they considered the manufacturing process? <br> Is their outcome possible to make it real? <br> What skills are required to make the product?",
     "mainImage": "/maker.png",
     "cardImage": "/card/maker-card.png",
     "cardColor":"#C18752"
@@ -93,7 +93,7 @@
     "title": "The builder",
     "slug": "builder",
     "description": "You're a person who view everything in 3D perspective. You always amaze by the complicate but seamless structure. Taking builder role, you'll focus on the shape and structure of the design. You will not only help the designer improve their 3D form, but also give some suggestion about the mock-up model.",
-    "guide":"The following is a guideline questions for the builder",
+    "guide":"What do you think of the shape of the product? <br> Is the shape well present the product's function? <br> What do you think should be improved in term of the shape and structure? <br> Is the product followed the ergonomic rule? <br> Have the product's form concern about inclusive design? <br> Has the designer thought of how the product will fit in the transportation process?",
     "mainImage": "/builder.png",
     "cardImage": "/card/builder-card.png",
     "cardColor":"#57CEC5"
@@ -102,7 +102,7 @@
     "title": "The aesthetic pleaser",
     "slug": "aesthetic-pleaser",
     "description": "You are a person who concentrates on how the design looks. You will be giving a thought about the visual part of the design. Things you will be considering are colour, font, illustration, layout or photos. You can also suggest the designer an art direction or the mood and tone that you found suitable for their project.",
-    "guide":"The following is a guideline questions for aesthetic pleaser",
+    "guide":"Does the visual go well with the product? <br> Does the visual approach the right user group? <br> Does the design well represent the brand's corporate identity? <br> Does the designer choose the right palette? <br> Is there any layout problem should be mentioned?",
     "mainImage": "/ap.png",
     "cardImage": "/card/ap-card.png",
     "cardColor":"#D75C67"
